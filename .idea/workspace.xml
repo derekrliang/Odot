@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dassd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb" />
     </list>
     <ignored path="odot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="destroy_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="destroy_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.3755523" vertical-offset="0" max-vertical-offset="679">
+            <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_lists_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="83" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.4005891" vertical-offset="153" max-vertical-offset="2822">
               <folding />
             </state>
           </provider>
@@ -113,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -199,6 +206,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="todo_lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -715,11 +740,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4445928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27766395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27766395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -890,7 +915,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.3755523" vertical-offset="0" max-vertical-offset="679">
+        <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="83" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.4005891" vertical-offset="153" max-vertical-offset="2822">
           <folding />
         </state>
       </provider>
