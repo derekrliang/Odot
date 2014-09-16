@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb" afterPath="$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
     </list>
     <ignored path="odot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +34,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="-0.22680412" vertical-offset="630" max-vertical-offset="1309">
+            <state line="5" column="0" selection-start="93" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="46" selection-start="895" selection-end="895" vertical-scroll-proportion="0.6995582" vertical-offset="18" max-vertical-offset="1105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todo_lists/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="45" selection-start="352" selection-end="352" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -80,6 +98,8 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/models/todo_list.rb" />
         <option value="$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
+        <option value="$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb" />
       </list>
     </option>
   </component>
@@ -226,6 +246,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo_lists" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -830,9 +854,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_lists/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="352" selection-end="352" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="700" selection-end="700" vertical-scroll-proportion="-0.22680412" vertical-offset="630" max-vertical-offset="1309">
+        <state line="5" column="0" selection-start="93" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="46" selection-start="895" selection-end="895" vertical-scroll-proportion="0.6995582" vertical-offset="18" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
