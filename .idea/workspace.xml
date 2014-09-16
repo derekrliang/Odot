@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="" />
+    <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dassd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/features/todo_lists/edit_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="odot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +49,7 @@
       <file leaf-file-name="destroy_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="388" selection-end="388" vertical-scroll-proportion="0.32547864" vertical-offset="0" max-vertical-offset="679">
+            <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.3755523" vertical-offset="0" max-vertical-offset="679">
               <folding />
             </state>
           </provider>
@@ -710,11 +715,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4445928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27766395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27766395" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -885,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="388" selection-end="388" vertical-scroll-proportion="0.32547864" vertical-offset="0" max-vertical-offset="679">
+        <state line="15" column="3" selection-start="404" selection-end="404" vertical-scroll-proportion="0.3755523" vertical-offset="0" max-vertical-offset="679">
           <folding />
         </state>
       </provider>
