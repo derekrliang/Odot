@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_items/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_items/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_lists/show.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_lists/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/todo_item.rb" afterPath="$PROJECT_DIR$/app/models/todo_item.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/todo_item_spec.rb" afterPath="$PROJECT_DIR$/spec/models/todo_item_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/todo_list.rb" afterPath="$PROJECT_DIR$/app/models/todo_list.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/todo_list_spec.rb" afterPath="$PROJECT_DIR$/spec/models/todo_list_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/todo_lists.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/todo_lists.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="odot.iws" />
@@ -29,19 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/todo_items/index.html.erb">
+      <file leaf-file-name="todo_list.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/todo_list.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.75497705" vertical-offset="0" max-vertical-offset="653">
+            <state line="13" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_items.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss">
+      <file leaf-file-name="todo_list_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/todo_list_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+            <state line="20" column="81" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/todo_lists/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="31" selection-start="412" selection-end="412" vertical-scroll-proportion="0.39050537" vertical-offset="0" max-vertical-offset="653">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo_item.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/todo_item.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="58" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -66,10 +86,7 @@
         <option value="$PROJECT_DIR$/spec/features/todo_lists/destroy_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/todo_lists_controller_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/models/todo_list_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/todo_list.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/todo_items_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todo_items/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todo_items/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/todo_items/new.html.erb" />
@@ -85,11 +102,16 @@
         <option value="$PROJECT_DIR$/db/migrate/20140917005522_add_completed_at_to_todo_items.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todo_items_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/todo_item.rb" />
         <option value="$PROJECT_DIR$/spec/features/todo_items/complete_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/todo_item_spec.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss" />
         <option value="$PROJECT_DIR$/app/views/todo_items/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/todo_lists.css.scss" />
+        <option value="$PROJECT_DIR$/app/models/todo_item.rb" />
+        <option value="$PROJECT_DIR$/spec/models/todo_item_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/todo_list.rb" />
+        <option value="$PROJECT_DIR$/spec/models/todo_list_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/todo_lists/show.html.erb" />
       </list>
     </option>
   </component>
@@ -192,6 +214,10 @@
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo_lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -244,6 +270,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo_lists" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,6 +488,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="LayoutCode.rearrangeEntriesRHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -836,20 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/todo_list_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo_list.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_lists/create_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="31" selection-start="0" selection-end="1890" vertical-scroll-proportion="0.41231343" vertical-offset="0" max-vertical-offset="1309">
@@ -867,13 +884,6 @@
     <entry file="file://$PROJECT_DIR$/spec/controllers/todo_items_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todo_lists/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="633" selection-end="633" vertical-scroll-proportion="0.61569417" vertical-offset="51" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -962,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="443" selection-end="443" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todo_items/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="9" selection-start="144" selection-end="144" vertical-scroll-proportion="0.07810107" vertical-offset="0" max-vertical-offset="653">
@@ -1004,13 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo_item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_items/complete_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="16" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="697">
@@ -1018,23 +1014,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/todo_item_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="0.47569954" vertical-offset="0" max-vertical-offset="679">
+        <state line="10" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2603369" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/todo_items.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="251" selection-end="251" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.05206738" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todo_items/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.75497705" vertical-offset="0" max-vertical-offset="653">
+        <state line="3" column="9" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_lists/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/todo_lists.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="455" selection-end="455" vertical-scroll-proportion="0.4946401" vertical-offset="0" max-vertical-offset="653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/todo_item_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.10014728" vertical-offset="0" max-vertical-offset="679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/todo_list_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="81" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo_list.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/todo_item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="58" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_lists/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="412" selection-end="412" vertical-scroll-proportion="0.39050537" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>
