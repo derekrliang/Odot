@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44b1a2-49b3-460e-9218-b254350eac58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/todo_items/create_spec.rb" afterPath="$PROJECT_DIR$/spec/features/todo_items/create_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_items/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_items/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_items/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_items/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/todo_items/new.html.erb" afterPath="$PROJECT_DIR$/app/views/todo_items/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/todo_item.rb" afterPath="$PROJECT_DIR$/app/models/todo_item.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/todo_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/todo_items_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/todo_items_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/todo_items_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="odot.iws" />
@@ -42,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/todo_items/edit_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="20" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8303393" vertical-offset="383" max-vertical-offset="986">
+            <state line="40" column="28" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -72,7 +67,7 @@
       <file leaf-file-name="todo_items_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/todo_items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="935">
+            <state line="35" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -81,7 +76,25 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/todo_items/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="442" selection-end="442" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+            <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/todo_items/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="9" selection-start="144" selection-end="144" vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/todo_items/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="320" selection-end="329" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -113,16 +126,17 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/spec/features/todo_items/index_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/todo_items/new.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/todo_items/create_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/todo_item.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/todo_items_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/todo_lists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/todo_items/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/todo_items/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/todo_items_controller.rb" />
         <option value="$PROJECT_DIR$/spec/features/todo_items/edit_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/todo_items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/todo_items/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todo_items/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/todo_items/new.html.erb" />
       </list>
     </option>
   </component>
@@ -1086,27 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todo_items/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.14718615" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todo_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/todo_items/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="442" selection-end="442" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todo_items/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="14" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="340">
@@ -1123,7 +1116,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/todo_items/edit_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="20" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.8303393" vertical-offset="383" max-vertical-offset="986">
+        <state line="40" column="28" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todo_items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_items/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="320" selection-end="329" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_items/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/todo_items/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="144" selection-end="144" vertical-scroll-proportion="0.107368425" vertical-offset="0" max-vertical-offset="475">
           <folding />
         </state>
       </provider>
