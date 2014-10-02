@@ -11,7 +11,7 @@ describe TodoItem do
       expect(todo_item.completed?).to be_false
     end
 
-    it "return true when completed_at is not empty" do
+    it "returns true when completed_at is not empty" do
       todo_item.completed_at = Time.now
       expect(todo_item.completed?).to be_true
     end
