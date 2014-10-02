@@ -45,6 +45,7 @@ describe UserSessionsController do
         post :create, email: "derekliang@gmail.com", password: "derek1"
         expect(flash[:success]).to eq("Thanks for logging in!")
       end
+
     end
   end
 
