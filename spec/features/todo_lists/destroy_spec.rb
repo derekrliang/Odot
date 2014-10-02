@@ -2,6 +2,11 @@ require 'spec_helper'
 
 describe "Deleting todo lists" do
   let!(:todo_list) { TodoList.create(title: "Groceries", description: "Grocery List") }
+  let(:user) { create(:user) }
+
+  before do
+    sign_in user, password: "password1"
+  end
 
   it "is successful when clicking the destroy link" do
     visit "/todo_lists"
