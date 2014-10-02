@@ -6,8 +6,8 @@ describe User do
         first_name: "Derek",
         last_name: "Liang",
         email: "derekliang@gmail.com",
-        password: "derek1234",
-        password_confirmation: "derek1234"
+        password: "derek1",
+        password_confirmation: "derek1"
     }
 
   }
